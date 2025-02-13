@@ -51,10 +51,6 @@ This Flutter application displays a list of countries, allows users to search fo
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
-## License
-
-_(Specify the license under which your code is distributed. For example: MIT License)_
-
 ---
 
 ### Code Explanation (HomeScreen - `lib/screens/home_screen.dart`)
