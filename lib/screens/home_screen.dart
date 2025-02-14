@@ -1,5 +1,3 @@
-// ignore_for_file: avoid_print
-
 import 'package:country_app_prototype/components/language_selection_modal.dart';
 import 'package:country_app_prototype/screens/details_screen.dart';
 import 'package:country_app_prototype/theme.dart';
@@ -38,7 +36,6 @@ class _HomeScreenState extends State<HomeScreen> {
     );
 
     if (response.statusCode == 200) {
-      print(response.statusCode);
       List<Map<String, dynamic>> countries =
           List<Map<String, dynamic>>.from(jsonDecode(response.body));
 
